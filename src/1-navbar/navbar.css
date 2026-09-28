@@ -1,0 +1,100 @@
+#nav-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    width: 100vw;
+    padding: 16px 24px;
+    background-color: #0D0D0F;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+
+.navbar li {
+    flex: 1 1 50%;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    color: #F5F5F0;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    text-decoration: line-through;
+    text-decoration-color: #FF4655;
+}
+
+.navbar li:nth-child(2) a,
+.navbar li:nth-child(4) a {
+    text-align: right;
+}
+
+.navbar li:nth-child(3) a {
+    padding-left: 24px;
+}
+
+.navbar li:nth-child(4) a {
+    padding-right: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.button-container a {
+    display: block;
+    text-decoration: none;
+    background-color: #8C1F28;
+    border-radius: 8px 0 0 8px;
+    padding: 20px 28px 20px 14px;
+}
+
+/* -------------------------------------- Acá empiezan los estilos para tablet -------------------------------------- */
+
+@media (min-width: 744px) {
+    .navbar {
+        padding: 50px 50px 32px 50px;
+    }
+
+    .navbar ul {
+        flex-wrap: nowrap;
+        row-gap: 0;
+    }
+
+    .navbar li:nth-child(2) a {
+        text-align: center;
+    }
+
+    .navbar li:nth-child(3) a {
+        text-align: right;
+        padding-left: 0;
+    }
+
+    .button-container {
+        justify-content: flex-start;
+        margin-top: 0;
+    }
+
+    .button-container a {
+        padding: 28px 20px 14px 20px;
+        border-radius: 0 0 8px 8px;
+        transform: rotate(-90deg);
+    }
+}
+
+/* -------------------------------------- Acá empiezan los estilos para desktop -------------------------------------- */

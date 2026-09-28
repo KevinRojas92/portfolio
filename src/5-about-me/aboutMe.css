@@ -1,0 +1,73 @@
+.aboutMe-container {
+    height: calc(100% - 102px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe-container img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutMe-container figcaption {
+    width: 100%;
+    max-width: 565px;
+    height: auto;
+    padding: 0 24px;
+}
+
+.aboutMe-container figcaption p {
+    font-size: 18px;
+}
+
+.aboutMe-container figcaption p:first-child {
+    margin-bottom: 8px;
+}
+
+/* -------------------------------------- Acá empiezan los estilos para tablet -------------------------------------- */
+
+@media (min-width: 744px) {
+    #about {
+        height: 70lvh;
+        padding-top: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .aboutMe-container {
+        height: fit-content;
+    }
+
+    .aboutMe-container figcaption {
+        width: 100%;
+        max-width: 650px;
+        padding: 0 50px;
+    }
+
+    #about .bottom-button-container {
+        display: none;
+    }
+}
+
+/* -------------------------------------- Acá empiezan los estilos para desktop -------------------------------------- */
+
+@media (min-width: 1024px) {
+    #about {
+        height: 60lvh;
+        padding: 0 50px;
+    }
+
+    .aboutMe-container {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    .aboutMe-container figcaption {
+        max-width: none;
+        padding: 0;
+    }
+}

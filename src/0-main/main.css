@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Duke-charming';
+    src: url('./fonts/Duke Charming Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100lvw;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    color: #F5F5F0;
+    background-color: #0D0D0F;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.titles {
+    font-family: 'Duke-charming', 'Times New Roman', Times, serif;
+}
+
+.accent {
+    color: #E23744;
+    font-weight: 800;
+}
+
+.intros {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-work-group {
+    display: contents;
+}
+
+/* -------------------------------------- Acá empiezan los estilos para tablet -------------------------------------- */
+
+@media (min-width: 744px) {
+    #root {
+        width: 400lvw;
+        flex-direction: row;
+        max-height: 100lvh;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: clip;
+        scroll-snap-type: x mandatory;
+    }
+
+    .about-work-group {
+        width: 100lvw;
+        height: 100lvh;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+
+/* -------------------------------------- Acá empiezan los estilos para desktop -------------------------------------- */
+
+@media (min-width: 1024px) {}
