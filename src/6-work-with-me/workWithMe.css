@@ -74,7 +74,7 @@
 @media (min-width: 744px) {
     #work {
         padding: 0 50px;
-        height: 30lvh;
+        height: calc(30lvh - 25px);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -108,7 +108,7 @@
 
 @media (min-width: 1024px) {
     #work {
-        height: 40lvh;
+        height: calc(40lvh - 25px);
     }
 
     .workWithMe-container div:first-child {

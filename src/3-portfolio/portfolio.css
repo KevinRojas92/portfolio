@@ -9,20 +9,41 @@
     column-gap: 16px;
 }
 
-.portfolio-container ul {
+.portfolio-container>ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
+    height: 100%;
+    justify-content: center;
 }
 
 .portfolio-container ul li {
     flex: 0 0 auto;
 }
 
+.portfolio-container ul li figure {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-container ul li figure a {
+    display: block;
+    width: 100%;
+}
+
+.portfolio-container ul li figure picture {
+    display: block;
+    height: 100%;
+}
+
 .portfolio-container ul li figure a img {
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 
 .portfolio-container figcaption {
@@ -110,9 +131,11 @@
 
 @media (min-width: 1024px) {
     .portfolio-container {
-        padding: 0 0 0 50px;
+        padding: 50px 0 50px 50px;
         width: 100%;
+        height: calc(100lvh - 102px);
         justify-content: center;
+        align-items: center;
     }
 
     .portfolio-container>ul {

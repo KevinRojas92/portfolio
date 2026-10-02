@@ -31,7 +31,7 @@
 
 @media (min-width: 744px) {
     #about {
-        height: 70lvh;
+        height: calc(70lvh - 25px);
         padding-top: 160px;
         display: flex;
         flex-direction: column;
@@ -57,7 +57,7 @@
 
 @media (min-width: 1024px) {
     #about {
-        height: 60lvh;
+        height: calc(60lvh - 25px);
         padding: 0 50px;
     }
 
