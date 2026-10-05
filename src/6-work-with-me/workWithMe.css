@@ -108,10 +108,10 @@
 
 @media (min-width: 1024px) {
     #work {
-        height: calc(40lvh - 25px);
+        height: calc(35lvh - 25px);
     }
 
     .workWithMe-container div:first-child {
-        max-width: 1080px;
+        max-width: 700px;
     }
 }

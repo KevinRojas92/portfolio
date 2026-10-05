@@ -57,12 +57,12 @@
 
 @media (min-width: 1024px) {
     #about {
-        height: calc(60lvh - 25px);
+        height: calc(65lvh - 25px);
         padding: 0 50px;
     }
 
     .aboutMe-container {
-        max-width: 1080px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
