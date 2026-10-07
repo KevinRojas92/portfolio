@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useMediaQuery } from "../0-main/useMediaQuery";
+import { useScrollToHorizontal } from "../0-main/useScrollToHorizontal";
 import './navbar.css';
 
 const SECTIONS = ['home', 'portfolio', 'skills', 'about', 'work'];
 
 export function Navbar() {
     const isWide = useMediaQuery('(min-width: 744px)');
+    useScrollToHorizontal(isWide);
 
     const [activeId, setActiveId] = useState('home');
 
