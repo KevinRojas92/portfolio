@@ -7,9 +7,11 @@ export function WorkWithMe() {
             <div>
                 <h2 className='titles'>Let's talk</h2>
 
+                <p className='tag-line'>Available for freelance projects and remote roles: UX/UI design, web design and development.</p>
+
                 <div className='data-container'>
-                    <p>+1 (737) 396 2731</p>
-                    <p>kevinrojasdg@gmail.com</p>
+                    <p><a href='tel:+17373962731'>+1 (737) 396 2731</a></p>
+                    <p><a href='mailto:kevinrojasdg@gmail.com'>kevinrojasdg@gmail.com</a></p>
                 </div>
             </div>
 

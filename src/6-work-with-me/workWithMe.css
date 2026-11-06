@@ -56,10 +56,23 @@
     background-repeat: no-repeat;
 }
 
+.data-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.data-container a:hover {
+    text-decoration: underline;
+}
+
 .workWithMe-container h2 {
     text-transform: uppercase;
     font-size: 32px;
     color: #E23744;
+}
+
+.tag-line {
+    text-align: right;
 }
 
 .workWithMe-container .bottom-button-container a {

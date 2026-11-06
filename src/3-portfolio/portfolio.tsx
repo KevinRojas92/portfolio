@@ -18,8 +18,8 @@ export function Portfolio() {
 
                             <figcaption className='padding-left'>
                                 <h2 className='subtitles'>Split Bills</h2>
-                                <p>App to split bills with your partner or friends.</p>
-                                <span>Developed & Designed</span>
+                                <p>Split expenses with your partner or friends, no math required.</p>
+                                <span>Designed & Developed</span>
                             </figcaption>
                         </figure>
                     </li>
@@ -36,8 +36,8 @@ export function Portfolio() {
 
                             <figcaption className='padding-left'>
                                 <h2 className='subtitles'>Stream Cast</h2>
-                                <p>Website to help you find your ideal movie.</p>
-                                <span>Developed & Designed</span>
+                                <p>Find your next movie and watch its trailer instantly.</p>
+                                <span>Designed & Developed</span>
                             </figcaption>
                         </figure>
                     </li>
@@ -50,14 +50,14 @@ export function Portfolio() {
                                 <picture>
                                     <source media='(min-width: 1024px)' srcSet='/images/3-desktop/2-image-hc2p.png' />
                                     <source media='(min-width: 744px)' srcSet='/images/2-tablet/2-image-hc2p.png' />
-                                    <img className='radius-left' src='/images/1-mobile/2-image-hc2p.png' alt="Mockup of the HC2P website displayed on an iMac and an iPhone, over a grin metalic table." />
+                                    <img className='radius-left' src='/images/1-mobile/2-image-hc2p.png' alt="Mockup of the HC2P website displayed on an iMac and an iPhone, over a green metallic table." />
                                 </picture>
                             </a>
 
                             <figcaption className='padding-right'>
                                 <h2 className='subtitles'>HC2P</h2>
-                                <p>Architecture studio website.</p>
-                                <span>Developed</span>
+                                <p>Website for a sustainable architecture studio.</p>
+                                <span>Designed & Developed</span>
                             </figcaption>
                         </figure>
                     </li>
@@ -73,9 +73,9 @@ export function Portfolio() {
                             </a>
 
                             <figcaption className='padding-right'>
-                                <h2 className='subtitles'>MyWather</h2>
-                                <p>A fun way to check the weather.</p>
-                                <span>Developed & Designed</span>
+                                <h2 className='subtitles'>MyWeather</h2>
+                                <p>A playful way to check the weather.</p>
+                                <span>Designed & Developed</span>
                             </figcaption>
                         </figure>
                     </li>

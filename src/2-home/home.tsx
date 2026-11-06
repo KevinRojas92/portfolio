@@ -21,9 +21,9 @@ export function Home() {
                 </h1>
 
                 <div>
-                    <p className='intros'><span className='accent'>Hey!</span> Thanks for checking out my profile.</p>
+                    <p className='intros'><span className='accent'>Hey!</span> Thanks for stopping by.</p>
 
-                    <p>I’m a UX/UI Designer, aspiring web developer, art director, creative graphic and senior graphic designer.</p>
+                    <p>I’m a UX/UI designer who builds what he designs. Every project here was designed and developed by me. Before that, I spent 8+ years as an art director in advertising.</p>
                 </div>
             </div>
 

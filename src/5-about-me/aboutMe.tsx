@@ -14,7 +14,7 @@ export function AboutMe() {
                 <figcaption>
                     <p className='intros'>Let me tell you a little <span className='accent'>about myself</span></p>
 
-                    <p>I have 4 years of experience as a UX/UI Designer, and I'm now starting to venture into the world of development. I also have 8 years of experience as a Graphic Creative at major advertising agencies, with extensive knowledge in BTL, ATL, and Digital.</p>
+                    <p>I’m a UX/UI designer with 4+ years designing digital products, most recently fintech platforms and design systems. Working side by side with engineers led me to code, and now I build what I design. Before product, I spent 8+ years as an art director in advertising, with campaigns recognized at the Echo and Caples Awards.</p>
                 </figcaption>
             </figure>
 
